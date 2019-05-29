@@ -1,0 +1,49 @@
+/* Test CSS file */
+
+body {
+  background-color: #F4F1ea;
+}
+
+.wrapper {
+  display: grid;
+  width: 1366px;
+  height: 768px;
+  grid-template-areas: 
+  "links skills thesis"
+  "headings portfolio picture"
+}
+
+.box1 {
+ border: 1px solid red;
+ grid-area: links;
+ width: 300px;
+}
+
+.box2 {
+ border: 1px solid red;
+ grid-area: skills;
+
+}
+
+.box3 {
+ border: 1px solid red;
+ grid-area: picture;
+ height: 600px;
+}
+
+.box4 {
+ border: 1px solid red;
+ grid-area: headings;
+ width: 300px;
+ height: 100px;
+}
+
+.box5 {
+ border: 1px solid red;
+ grid-area: portfolio;
+}
+
+.box6 {
+ border: 1px solid red;
+ grid-area: thesis;
+}
