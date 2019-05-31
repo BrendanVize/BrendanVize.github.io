@@ -5,71 +5,15 @@
   min-width: 1170px;
  }
 
-
-#Headings {
-  margin-left: 20px;
-  margin-top: 150px;
-  position: absolute;
-  top: 400px;
-  display: grid;
-  width: 388px;
-  height: 100px;
-  grid-template-areas: 
-    "name name name"
-    "title picture email"
-  }
-
-#Headings h1 {
-  font-family: 'Alegreya Sans SC', sans-serif;
-  font-size: 64px;
-  font-weight: 900;
-  grid-area: name;
- }
-
-#Headings h2 {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 22px;
-  font-weight: 500;
-  grid-area: title;
-}
-
-#Headings img {
-  grid-area: picture;
-  height: 17px;
-  align-self: center;
-  justify-self: center; 
-}
-
-#Headings h3 {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 22px;
-  font-weight: 500;
-  grid-area: email;
-  text-align: right;
-}
-
-a:hover {
-  height: 150px;
-  width: 150px;
-  margin: 10px; 
-} 
-
-a:hover .linkimage {
-  height: 100px;
-  width: 100px;
-  margin-top: -50px;
-  margin-left: -50px;
- }
-
 #MainLinks {
    float: left;
-   height: 300px;
-   width: 670px;
+   height: 43%;
+   width: 57%;
 }
 
 .container {
-  height: 190px;
-  width: 190px;
+  height: 63%;
+  width: 28%;
   float:left;
   margin: 15px;
   position: relative;
@@ -79,8 +23,8 @@ a:hover .linkimage {
   display:block;
   background-color: #318ba2;
   border: 10px solid white;
-  height: 170px;
-  width: 170px;
+  height: 89%;
+  width: 89%;
   box-shadow: 2px 2px 5px grey;
 }
 
@@ -88,23 +32,23 @@ a:hover .linkimage {
   position: absolute;
   top: 50%;
   left: 50%;
-  height: 120px;
-  width: 120px;
-  margin-top: -60px;
-  margin-left: -60px;
+  height: 64%;
+  width: 64%;
+  margin-top: -32%;
+  margin-left: -32%;
  }
 
 .linktag {
-  height: 30px;
+  height: 16%;
   position: absolute;
-  bottom: -50px;
+  bottom: -26%;
   left: 35%;
  }
 
 .tagtext {
   position: absolute;
   bottom: -85px;
-  font-size: 16pt;
+  font-size: 150%;
   font-family: 'Atma', cursive;
   font-weight: 500;
   width: 80%;
@@ -124,15 +68,28 @@ a:hover .linkimage {
   transform: rotate(-10deg);
 }
 
+a:hover {
+  height: 79%;
+  width: 79%;
+  margin: 10px; 
+} 
+
+a:hover .linkimage {
+  height: 53%;
+  width: 53%;
+  margin-top: -26%;
+  margin-left: -26%;
+ }
+
 #SkillsList {
   font-family: 'Cormorant Garamond', serif;
   font-size: 170%;
   font-weight: 500;
   line-height: 1.4;
-  width: 670px;
+  width: 57%;
   position: absolute;
-  left: 100px;
-  top: 350px;
+  left: 8.5%;
+  top: 50%;
 }
 
 li {
@@ -140,41 +97,81 @@ li {
  padding-left: 15px;
 }
 
+#Headings {
+  margin-left: 20px;
+  margin-top: 150px;
+  position: absolute;
+  top: 57%;
+  display: grid;
+  width: 33%;
+  height: 14%;
+  grid-template-areas: 
+    "name name name"
+    "title picture email"
+  }
+
+#Headings h1 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 400%;
+  font-weight: 900;
+  grid-area: name;
+ }
+
+#Headings h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 138%;
+  font-weight: 500;
+  grid-area: title;
+}
+
+#Headings img {
+  grid-area: picture;
+  height: 35%;
+  align-self: center;
+  justify-self: center; 
+}
+
+#Headings h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 138%;
+  font-weight: 500;
+  grid-area: email;
+  text-align: right;
+}
+
 #thesis {
- left: 420px;
+ left: 36%;
  position: absolute;
- bottom: 15px;  
+ bottom: 2%;  
  z-index: 1;
 }
 
 #thesis a:hover {
-  height: 26px;
-  width: 26px;
-  margin: 2px;
+  height: 73%;
+  width: 73%;
+  margin: 6%;
   } 
 
 #thesis a:hover .tlinkimage {
-  height: 16px;
-  width: 10px;
-  margin-top: -8px;
-  margin-left: -5px;
+  height: 47%;
+  width: 29%;
+  margin-top: -23%;
+  margin-left: -15%;
  }
 
-
 .tcontainer {
-  height: 34px;
-  width: 34px;
-  margin-left: 250px;
+  height: 5%;
+  width: 3%;
+  margin-left: 21%;
   position: relative;
-  
  }
 
 .tlinkbox {
   display:block;
   background-color: #318ba2;
   border: 2px solid white;
-  height: 30px;
-  width: 30x;
+  height: 88%;
+  width: 88%;
   box-shadow: 2px 2px 5px grey;
 }
 
@@ -182,58 +179,34 @@ li {
   position: absolute;
   top: 50%;
   left: 50%;
-  height: 20px;
-  width: 14px;
-  margin-top: -10px;
-  margin-left: -7px;
+  height: 59%;
+  width: 41%;
+  margin-top: -29%;
+  margin-left: -21%;
  }
 
 .tlinktag {
-  height: 10px;
+  height: 29%;
   position: absolute;
   top: 50%;
-  left: -30px;
+  left: -88%;
  }
 
 .ttagtext {
   position: absolute;
-  font-size: 10pt;
+  font-size: 75%;
   font-family: 'Atma', cursive;
   font-weight: 500;
-  width: 200px;
+  width: 588%;
   text-align: left;
   text-shadow: 2px 2px 5px grey; 
-  left: -230px;
+  left: -670%;
   top: 50%;
   }
 
-#portfolio {
-  font-family: 'Alegreya Sans SC', sans-serif;
-  font-size: 18pt;
-  font-weight: 700;
-  width: 10%;
-  height: 7%;
-  background: url(scrolldown.png) no-repeat center bottom;
-  position: absolute;
-  top: 650px;
-  left: 50%;
-}
-
-#portfolio:hover {
-  background: url(scrollhover.png) no-repeat center bottom;
-}
-
-
 .photo {
-  height: 700px;
-  right: 0px;
+  height: 100%;
+  right: 0;
   position: absolute;
-
 }
-
-
-
-
-
-
 
