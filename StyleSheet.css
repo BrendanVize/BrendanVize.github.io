@@ -1,8 +1,9 @@
 .wrapper{
-  height : 700px;
+  display: flow-root;
   background-color: #F4F1ea;
   position: relative;
-  min-width: 1170px;
+  height: 100%;
+  width: 100%;
  }
 
 #MainLinks {
