@@ -1,0 +1,239 @@
+.wrapper{
+  height : 700px;
+  background-color: #F4F1ea;
+  position: relative;
+  min-width: 1700px;
+}
+
+.info {
+ width:1390px;
+ height: 360px;
+ float: left;
+ 
+ }
+
+
+#Headings {
+  margin-left: 20px;
+  margin-top: 150px;
+  position: absolute;
+  top: 400px;
+  display: grid;
+  width: 388px;
+  height: 100px;
+  grid-template-areas: 
+    "name name name"
+    "title picture email"
+  }
+
+#Headings h1 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 64px;
+  font-weight: 900;
+  grid-area: name;
+ }
+
+#Headings h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px;
+  font-weight: 500;
+  grid-area: title;
+}
+
+#Headings img {
+  grid-area: picture;
+  height: 17px;
+  align-self: center;
+  justify-self: center; 
+}
+
+#Headings h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px;
+  font-weight: 500;
+  grid-area: email;
+  text-align: right;
+}
+
+a:hover {
+  height: 150px;
+  width: 150px;
+  margin: 10px; 
+} 
+
+a:hover .linkimage {
+  height: 100px;
+  width: 100px;
+  margin-top: -50px;
+  margin-left: -50px;
+ }
+
+#MainLinks {
+   float: left;
+   height: 300px;
+   width: 670px;
+}
+
+.container {
+  height: 190px;
+  width: 190px;
+  float:left;
+  margin: 15px;
+  position: relative;
+}
+
+.linkbox {
+  display:block;
+  background-color: #318ba2;
+  border: 10px solid white;
+  height: 170px;
+  width: 170px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+.linkimage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 120px;
+  width: 120px;
+  margin-top: -60px;
+  margin-left: -60px;
+ }
+
+.linktag {
+  height: 30px;
+  position: absolute;
+  bottom: -50px;
+  left: 35%;
+ }
+
+.tagtext {
+  position: absolute;
+  bottom: -85px;
+  font-size: 16pt;
+  font-family: 'Atma', cursive;
+  font-weight: 500;
+  width: 80%;
+  text-align: center;
+  text-shadow: 2px 2px 5px grey; 
+  }
+
+#CV p {
+  transform: rotate(-20deg);
+}
+
+#LinkedIn p {
+  transform: rotate(5deg);
+}
+
+#GitHub p {
+  transform: rotate(-10deg);
+}
+
+#SkillsList {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 21pt;
+  font-weight: 500;
+  line-height: 1.4;
+  grid-area: skills;
+  width: 670px;
+  float: left;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+li {
+ background: url(bullet.png) no-repeat 0 50%;
+ padding-left: 15px;
+}
+
+#thesis {
+ position: absolute;
+ right: 0px;
+}
+
+#thesis a:hover {
+  height: 26px;
+  width: 26px;
+  margin: 2px;
+  } 
+
+#thesis a:hover .tlinkimage {
+  height: 16px;
+  width: 10px;
+  margin-top: -8px;
+  margin-left: -5px;
+ }
+
+
+.tcontainer {
+  height: 34px;
+  width: 34px;
+  margin-left: 250px;
+  position: relative;
+  border: 1px solid #F4F1ea;
+ }
+
+.tlinkbox {
+  display:block;
+  background-color: #318ba2;
+  border: 2px solid white;
+  height: 30px;
+  width: 30x;
+  box-shadow: 2px 2px 5px grey;
+}
+
+.tlinkimage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 20px;
+  width: 14px;
+  margin-top: -10px;
+  margin-left: -7px;
+ }
+
+.tlinktag {
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  left: -30px;
+ }
+
+.ttagtext {
+  position: absolute;
+  font-size: 10pt;
+  font-family: 'Atma', cursive;
+  font-weight: 500;
+  width: 200px;
+  text-align: left;
+  text-shadow: 2px 2px 5px grey; 
+  left: -230px;
+  top: 50%;
+  }
+
+#portfolio {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 18pt;
+  font-weight: 700;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  background: url(scrolldown.png) no-repeat center bottom;
+  position: absolute;
+  top: 650px;
+  left: 900px;
+}
+
+#portfolio:hover {
+  background: url(scrollhover.png) no-repeat center bottom;
+}
+
+
+.photo {
+  height: 700px;
+  right: 0px;
+  position: absolute;
+  
+}

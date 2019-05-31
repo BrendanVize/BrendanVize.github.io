@@ -1,49 +1,55 @@
 /* Test CSS file */
 
-body {
-  background-color: #F4F1ea;
-}
 
-.wrapper {
-  display: grid;
-  width: 1366px;
-  height: 768px;
-  grid-template-areas: 
-  "links skills thesis"
-  "headings portfolio picture"
-}
 
-.box1 {
+
+
+
+
+.Links {
+ width: 600px;
+ height: 300px;
  border: 1px solid red;
- grid-area: links;
- width: 300px;
+ float: left;
+ 
 }
 
-.box2 {
+.Skills {
+ width: 500px;
+ height: 300px;
  border: 1px solid red;
- grid-area: skills;
-
+ float: left;
 }
 
-.box3 {
+.Picture {
+ height: 700px;
+ width: 500px;
  border: 1px solid red;
- grid-area: picture;
- height: 600px;
+ position: absolute;
+ right: 0px;
 }
 
-.box4 {
+.Headings {
+ width: 600px;
+ height: 300px;
  border: 1px solid red;
- grid-area: headings;
- width: 300px;
- height: 100px;
+ position: absolute;
+ top: 400px;
+}
+.Portfolio {
+ width: 150px;
+ height: 150px;
+ border: 1px solid red;
+ left: 955px;
+ position: absolute;
+ top: 550px; 
 }
 
-.box5 {
+.Thesis {
+ width: 50px;
+ height: 50px;
  border: 1px solid red;
- grid-area: portfolio;
+ position: absolute;
+ right: 0px; 
 }
 
-.box6 {
- border: 1px solid red;
- grid-area: thesis;
-}

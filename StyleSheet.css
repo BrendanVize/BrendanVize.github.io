@@ -1,22 +1,23 @@
 .wrapper{
- background-color: #F4F1ea;
- display: grid;
- width: 1366px;
- height: 768px;
- grid-template-areas: 
-  "thesis thesis thesis" 
-  "links skills photo"
-  "headings portfolio photo"
-}
+  height : 700px;
+  background-color: #F4F1ea;
+  position: relative;
+
+ }
+
 
 #Headings {
-  grid-area: headings;
+  margin-left: 20px;
+  margin-top: 150px;
+  position: absolute;
+  top: 400px;
   display: grid;
-  width: 390px;
+  width: 388px;
+  height: 100px;
   grid-template-areas: 
     "name name name"
-    "title picture email" 
-}
+    "title picture email"
+  }
 
 #Headings h1 {
   font-family: 'Alegreya Sans SC', sans-serif;
@@ -64,7 +65,6 @@ a:hover .linkimage {
    float: left;
    height: 300px;
    width: 670px;
-   grid-area: links;
 }
 
 .container {
@@ -126,10 +126,13 @@ a:hover .linkimage {
 
 #SkillsList {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 21pt;
+  font-size: 2vw;
   font-weight: 500;
   line-height: 1.4;
-  grid-area: skills;
+  width: 670px;
+  float: left;
+  margin-left: 100px;
+  margin-top: 50px;
 }
 
 li {
@@ -138,7 +141,9 @@ li {
 }
 
 #thesis {
- grid-area: thesis;
+ position: absolute;
+ right: 0px;
+ z-index: 1;
 }
 
 #thesis a:hover {
@@ -202,20 +207,31 @@ li {
   }
 
 #portfolio {
-  grid-area: portfolio;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 18pt;
   font-weight: 700;
-  text-align: center;
-  width: 100px;
-  height: 50px;
+  width: 10%;
+  height: 7%;
   background: url(scrolldown.png) no-repeat center bottom;
+  position: absolute;
+  top: 650px;
+  left: 50%;
 }
 
 #portfolio:hover {
   background: url(scrollhover.png) no-repeat center bottom;
 }
 
-#photo {
- grid-area: photo;
+
+.photo {
+  height: 700px;
+  float: left;
+  position: absolute;
+
 }
+
+
+
+
+
+
