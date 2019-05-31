@@ -15,7 +15,7 @@
   height: 63%;
   width: 28%;
   float:left;
-  margin: 15px;
+  margin: 2%;
   position: relative;
 }
 
@@ -47,7 +47,7 @@
 
 .tagtext {
   position: absolute;
-  bottom: -85px;
+  bottom: -48%;
   font-size: 150%;
   font-family: 'Atma', cursive;
   font-weight: 500;
@@ -71,7 +71,7 @@
 a:hover {
   height: 79%;
   width: 79%;
-  margin: 10px; 
+  margin: 5%; 
 } 
 
 a:hover .linkimage {
