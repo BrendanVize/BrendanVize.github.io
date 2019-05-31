@@ -2,7 +2,7 @@
   height : 700px;
   background-color: #F4F1ea;
   position: relative;
-
+  min-width: 1000px;
  }
 
 
@@ -126,13 +126,13 @@ a:hover .linkimage {
 
 #SkillsList {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 2vw;
+  font-size: 170%;
   font-weight: 500;
   line-height: 1.4;
   width: 670px;
-  float: left;
-  margin-left: 100px;
-  margin-top: 50px;
+  position: absolute;
+  left: 100px;
+  top: 350px;
 }
 
 li {
@@ -141,8 +141,9 @@ li {
 }
 
 #thesis {
+ left: 420px;
  position: absolute;
- right: 0px;
+ bottom: 15px;  
  z-index: 1;
 }
 
@@ -165,7 +166,7 @@ li {
   width: 34px;
   margin-left: 250px;
   position: relative;
-  border: 1px solid #F4F1ea;
+  
  }
 
 .tlinkbox {
@@ -225,10 +226,11 @@ li {
 
 .photo {
   height: 700px;
-  float: left;
+  right: 0px;
   position: absolute;
 
 }
+
 
 
 
