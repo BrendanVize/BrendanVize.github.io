@@ -1,0 +1,147 @@
+main {
+  background-color: #F4F1ea;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 100vh;
+ 
+}
+
+#main-links {
+   display: flex;
+   width: 95%;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  margin: 5%;
+}
+
+.link-image {
+  width: 80%;
+  margin: auto; 
+  display: block;
+  border: 10px solid white;
+  padding: 10%;
+  box-shadow: 2px 2px 5px grey;
+  background-color: #318ba2;
+ }
+
+
+
+.link-tag {
+  width: 16%;
+  bottom: -26%;
+  left: 35%;
+  position: relative;
+ }
+
+.tag-text {
+  position: relative;
+  bottom: -48%;
+  font-size: 120%;
+  font-family: 'Atma', cursive;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 2px 2px 5px grey; 
+  }
+
+#CV p {
+  transform: rotate(-10deg);
+}
+
+#linkedin p {
+  transform: rotate(5deg);
+}
+
+#github p {
+  transform: rotate(-10deg);
+}
+
+a:hover {
+  height: 79%;
+  width: 79%;
+  margin: 5%; 
+} 
+
+a:hover .link-image {
+  height: 53%;
+  width: 53%;
+  margin-top: -26%;
+  margin-left: -26%;
+ }
+
+.skills-list {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 150%;
+  font-weight: 500;
+  line-height: 1.4;
+  position: relative;
+  margin: 5%;
+  
+}
+
+li {
+ list-style: disc;
+}
+
+.skills {
+  display: flex;
+  margin: 5%;
+  box-shadow: 2px 2px 5px grey;
+  background-color: #318ba2;
+  padding: 2% 10%;
+  border-radius: 15px;
+  
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #318ba2;
+  box-shadow: 2px 2px 5px grey;
+  border-radius: 15px;
+  margin: 5%;
+  
+}
+
+.headings {
+  border-radius: 15px;
+  background-color: #318ba2; 
+  padding: 2%;
+  margin: 5%;
+ }
+
+
+h1 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 190%;
+  font-weight: 900;
+  padding: 1%;
+  
+ }
+
+h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 100%;
+  font-weight: 500;
+  padding: 1%;
+}
+
+
+#photo-container {
+  width: 20%;
+  border: solid white 7px;
+  box-shadow: 0 0 5px grey;
+  background-color: #F4F1ea;
+  margin: 7%;
+}
+
+
+.photo {
+  width: 100%;
+ 
+
+}
